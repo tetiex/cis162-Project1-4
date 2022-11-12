@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+body > img {
+   display: block;
+   width: 550px;
+   height: 580px;
+   margin: 5px;
+}
+div > img {
+    clear: left;
+    float: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 550px;
+    height: 580px;
+}
+
+section#leftColumn {
+    clear: left;
+    float: left;
+    width: 550px;
+    height: 580px;
+}
+
+section#rightColumn {
+   float: left;
+   width: 320px;
+   height: 580px;
+}
+
+body > footer {
+    clear: both;
+}
